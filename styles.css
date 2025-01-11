@@ -1,5 +1,5 @@
 :root {
-    --primary: #FF0000;      /* Changed from black to red */
+    --primary: #000000;      /* Changed back to black from red */
     --secondary: #666666;    /* Mid grey for secondary elements */
     --background: #FFFFFF;   /* Pure white background */
     --surface: #FFFFFF;      /* White surface */
