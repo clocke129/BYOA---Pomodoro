@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="reset">Reset</button>
+            <button id="toggle-mode">Switch to Break</button>
+        </div>
+        <div class="mode">
+            <span id="mode-text">Time to Focus!</span>
+        </div>
+    </div>
+    <div class="container todo-container">
+        <h1>Session Tasks</h1>
+        <div class="todo-input">
+            <input type="text" id="task-input" placeholder="Enter a task...">
+            <button id="add-task">Add</button>
+        </div>
+        <ul id="task-list" class="task-list">
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
