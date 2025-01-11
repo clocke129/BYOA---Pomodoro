@@ -1,5 +1,5 @@
 :root {
-    --primary: #000000;      /* Pure black for primary elements */
+    --primary: #FF0000;      /* Changed from black to red */
     --secondary: #666666;    /* Mid grey for secondary elements */
     --background: #FFFFFF;   /* Pure white background */
     --surface: #FFFFFF;      /* White surface */
@@ -44,7 +44,7 @@ h1 {
     font-size: 4.5rem;
     font-weight: 400;
     margin: 2rem 0;
-    color: var(--text);
+    color: var(--primary);
     font-feature-settings: "tnum";
     font-variant-numeric: tabular-nums;
     letter-spacing: -0.03em;
@@ -71,7 +71,7 @@ h1 {
 }
 
 #start, #reset {
-    background-color: var(--text);
+    background-color: var(--primary);
     color: var(--surface);
 }
 
